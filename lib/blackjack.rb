@@ -30,7 +30,7 @@ def initial_round
   return total
 end
 
-def hit?
+def hit?(number)
   
 end
 
