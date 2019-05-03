@@ -53,6 +53,9 @@ end
 #####################################################
 
 def runner
-  # code runner here
+  welcome
+  initial_round
+  hits?
+  display_card_total
 end
     
