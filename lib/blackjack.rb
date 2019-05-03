@@ -38,7 +38,6 @@ def hit?(number)
   if letter == "h"
     current_total += deal_card
     return current_total
-  end
 end
 
 def invalid_command
