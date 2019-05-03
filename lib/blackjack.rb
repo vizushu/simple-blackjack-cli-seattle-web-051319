@@ -37,7 +37,7 @@ def hit?(number)
     return display_card_total
   if letter == "h"
     display_card_total += deal_card
-    
+    return display_card_total
 end
 
 def invalid_command
