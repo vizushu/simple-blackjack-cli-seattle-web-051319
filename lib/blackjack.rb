@@ -35,7 +35,7 @@ def hit?(number)
   letter = get_user_input
   if letter == "s"
     return number
-  if letter == "h"
+  elsif letter == "h"
     number += deal_card
     return number
     else
